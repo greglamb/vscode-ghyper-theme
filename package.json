@@ -1,8 +1,8 @@
 {
   "name": "ghyper-theme",
   "displayName": "ghyper theme",
-  "description": "",
-  "version": "0.2410.1503",
+  "description": "A dark theme for Visual Studio Code",
+  "version": "0.2410.1504",
   "publisher": "greglamb",
   "license": "MIT",
   "categories": [
