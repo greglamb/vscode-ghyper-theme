@@ -40,7 +40,8 @@
   },
   "scripts": {
     "gclean": "rm -rf gbuilds/*",
-    "gpackage": "npm run gclean && vsce package --pre-release --out gbuilds/$(node -p -e \"require('./package.json').name\")-$(node -p -e \"require('./package.json').version\").vsix"
+    "gpackage": "npm run gclean && vsce package --pre-release --out gbuilds/$(node -p -e \"require('./package.json').name\")-$(node -p -e \"require('./package.json').version\").vsix",
+    "gpublish": "vsce publish --pre-release --packagePath gbuilds/$(node -p -e \"require('./package.json').name\")-$(node -p -e \"require('./package.json').version\").vsix"
   },
   "keywords": [
     "hyper black",
