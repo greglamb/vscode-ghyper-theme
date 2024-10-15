@@ -1,28 +1,32 @@
-# Hyper-Dark
+# 📂 ghyper theme
 
-HyperTerm inspired VSCode theme with vivid syntaxcolors and a pitch black UI. _Drools on the floor.._
+> This project was forked from [Hyper Term Black](https://github.com/HasseNasse/hyper-term-theme)
 
-![React/JS (Details)](static/js-detail.png)
+A Visual Studio Code theme
 
-[GitHub repository](https://github.com/HasseNasse/hyper-term-theme)
+## ⚠️ Disclaimer
 
-# CHANGELOG
+This project was created to meet its author's specific use case and needs. It is important to note that it is provided 'as is' without guarantees. Therefore, any response to requests for support, new features, or bug fixes may be limited. You are free to use it at your discretion if you find it useful, but be aware that any ongoing maintenance or enhancements may not be prioritized.
 
-[CHANGELOG.MD](https://github.com/HasseNasse/hyper-term-theme/blob/master/CHANGELOG.md)
+## 📜 License
 
-# Docs & Contribute
+This project is open-sourced software licensed under the MIT License. See [LICENSE](LICENSE) in the project root for license information.
 
-1. Install the theme
-2. Reload VSCode
-3. Press ctrl(⌘) + k, then press ctrl(⌘) + t, you will see a theme selection interface. Choose 'Hyper Term Black'.
-4. Change the following user settings on VS Code:
+## 🛠️ Development Notes
 
-```javascript
+### Recommended Icons
+
+[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+### Recommended Settings
+
+```json
 {
-    "editor.fontFamily": "Menlo, 'DejaVu Sans Mono', Consolas, 'Lucida Console', monospace",
-    "workbench.colorTheme": "Hyper Term Black",
-    "editor.cursorStyle": "block",
-    "editor.minimap.enabled": false,
-    "editor.renderLineHighlight": "none"
+  "settings": {
+    "editor.fontFamily": "'Fira Code'",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "none",
+    "material-icon-theme.activeIconPack": "react_redux"
+  }
 }
 ```
